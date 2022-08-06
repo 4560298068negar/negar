@@ -1,0 +1,231 @@
+h1{
+	color: pink;
+	size:80px;
+    text-align: center;
+}
+h2{
+	color: blue;
+	size: 60px;
+	text-align: center;
+
+
+}
+p{
+	color: pink;
+	size: 70px
+
+}
+body{
+	background-color: #e5a6230;
+}
+#vasati{
+	
+	width: 30%;
+	float: right;
+	margin-right: 5px;
+	
+
+}
+#chapi{
+	float: left;
+	margin-left: 44px;
+}
+hr{
+	color:purple;
+
+}
+br{
+	color: purple;
+}
+#b1{
+	margin-left:275px;
+	margin-top: 100px;
+	color: blue;
+	padding: 30px;
+	background-color: pink;
+    border-color: blue;
+    border-width: 8px;
+	font-size: xx-large;
+}
+#khar1{
+	width: 25%;
+	float: left;
+	border: solid 5px  blue;
+    margin-left: 44px;
+}
+
+#khar2{
+	width: 25%;
+	float: right;
+	border: solid 5px  blue;
+	margin-right: 44px;
+}
+#khar3{
+	width:95%;
+	margin-left:  44px;
+}
+#k{
+	text-align: center;
+	font-weight: bold;
+	font-size: xx-large;
+
+}
+#b2{
+	margin-left: 700px;
+	border: solid 5px  blue;
+	background-color: pink;
+	font-style:xx-large;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px; 
+}
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
+
+ul, li { display: block; }
+
+#body {
+
+    
+    width: 1500px;
+    height: 405px;
+    display: block;
+    position: absolute;
+    
+    margin-left: -32px;
+    margin-right: 50px;
+    
+}
+
+#body * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+#body input { display: none; }
+
+#img-inner {
+    top: 0;
+    opacity: 0;
+    width: 1500px;
+    height: 405px;
+    display: block;
+    position: absolute;
+    
+    transform: scale(0);
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    
+    transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+}
+
+#img-inner img {
+    width: 100%;
+    height: 130%;
+}
+
+#img-inner:nth-of-type(1) {
+    /* And... CSS3 image preloading :D */
+    background-image:
+        url("http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg"),
+        url("http://farm9.staticflickr.com/8068/8250438572_d1a5917072_z.jpg"),
+        url("http://farm9.staticflickr.com/8061/8237246833_54d8fa37f0_z.jpg"),
+        url("http://farm9.staticflickr.com/8055/8098750623_66292a35c0_z.jpg"),
+        url("http://farm9.staticflickr.com/8195/8098750703_797e102da2_z.jpg");
+}
+
+#img-inner:hover ~ label.sb-bignav { opacity: 0.5; }
+
+label.sb-bignav:hover { opacity: 1; }
+
+
+.sb-bignav {
+    width: 100px;
+    height: 130%;
+    display: none;
+    position: absolute;
+    
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    
+    transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -webkit-transition: opacity .2s;
+	
+    color: pink;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 450px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+label[title="Next"] { right: 0; }
+
+input:checked + li > #img-inner {
+    opacity: 1;
+        
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+input:checked + li > label { display: block; }
+
+iframe{
+	border: solid 5px white;
+	margin-left: 450px;
+}
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  border: solid 10px purple;
+  margin-left: 20px;
+  width: 1450px;
+
+  /* The width is the width of the web page */
+}
+#search{
+	font-size: xx-large;
+	background-color: pink;
+	border: solid 6px blue;
+	margin-bottom: 180px;
+	margin-left: 650px;
+	padding-left:  35px;
+	padding-right: 50px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	color: blue;
+	font-style: bold;
+
+
+}
+#tosh{
+
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+#in{
+	padding: 50px;
+	margin-left: 450px;
+	margin-top: 60px;
+
+}
